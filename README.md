@@ -1,93 +1,184 @@
-# Naruto: Sage Mode Awakening scrolling site 
+# 🍃 Naruto: Sage Mode Awakening
 
-An immersive, scroll-driven single-page experience themed around Naruto Uzumaki's transformation into Sage Mode. As you scroll, the page moves through three stages: the base form, the hand seal, and the full Sage Mode awakening.
+> *"When you understand pain, you understand nature. When you master nature, you awaken true power."*
 
-**[View Live Demo](https://naruto-rasengan-liart.vercel.app)**
+An immersive, anime-inspired scrolling experience that brings **Naruto Uzumaki's Sage Mode transformation** to life.
 
----
+This project recreates one of the most iconic moments from Naruto through cinematic visuals, smooth scroll-driven animations, atmospheric sound and video elements, and a minimal futuristic HUD interface.
 
-## Experience
+As users scroll down the page, they experience Naruto's journey from his normal form to the ultimate awakening of Sage Mode.
 
-Scroll through the story of the transformation:
-
-| Stage | Title | What happens |
-| --- | --- | --- |
-| 1 | **Just Naruto** | The base form, before the storm. No borrowed power, only stubborn will. |
-| 2 | **Hand Seal** | Perfectly still, breath held, as chakra spirals inward. |
-| 3 | **Sage Mode** | Nature energy is unlocked and the transformation lands. |
+🔗 **[Live Demo](https://naruto-rasengan-liart.vercel.app)**
 
 ---
 
-## Features
+## ⚡ The Experience
 
-- Scroll-driven storytelling that reveals each stage as you move down the page
-- Animated loading screen with a "syncing chakra" progress counter
-- Anime-inspired HUD details such as a live system clock and signal status
-- Japanese typography mixed with English headings for atmosphere
-- Image and video assets that change with the scroll
-- Lightweight static site with no backend required
-- Deployed on Vercel
+The website is designed as a cinematic three-stage journey.
 
----
+### 01 — Just Naruto
+**The Beginning**
 
-## Tech Stack
+The journey starts with Naruto in his base form. No special transformation, no borrowed power — just determination, courage, and an unbreakable will.
 
-| Area | Technology |
-| --- | --- |
-| Markup | HTML5 |
-| Styling | CSS3 |
-| Interactivity | JavaScript |
-| Media | PNG images and video |
-| Deployment | Vercel |
+### 02 — Hand Seal
+**The Preparation**
+
+Naruto enters a moment of complete stillness. With his hands forming the seal, chakra begins to gather as nature energy slowly surrounds him.
+
+### 03 — Sage Mode
+**The Awakening**
+
+The transformation reaches its climax. Nature energy flows through Naruto, revealing his powerful Sage Mode appearance in a dramatic cinematic sequence.
 
 ---
 
-## Getting Started
+## ✨ Features
 
-### Run locally
+- **Scroll-Driven Storytelling:** Experience the transformation through three carefully designed stages.
+- **Cinematic Animations:** Smooth transitions and visual effects that respond to scrolling.
+- **Chakra Loading Screen:** An animated introduction featuring a syncing chakra progress counter.
+- **Anime-Inspired HUD:** Futuristic interface elements, including a live system clock and signal indicators.
+- **Japanese-Inspired Typography:** A combination of Japanese visual aesthetics and English headings.
+- **Dynamic Media:** Images and video assets change as the user progresses through the story.
+- **Responsive Experience:** Designed to provide an immersive browsing experience across screen sizes.
+- **Lightweight Architecture:** Built using vanilla HTML, CSS, and JavaScript without requiring a backend.
+- **Easy Deployment:** Hosted on Vercel for fast and accessible delivery.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure and content |
+| CSS3 | Styling, animations, and visual effects |
+| JavaScript | Scroll interactions and dynamic behavior |
+| PNG | Character and background visuals |
+| Video | Cinematic transformation sequences |
+| Vercel | Hosting and deployment |
+
+---
+
+## 📂 Project Structure
+
+```text
+Naruto-Rasengan/
+│
+├── video/
+│   └── Video assets
+│
+├── 1.png
+├── 2.png
+├── 3.png
+│
+└── index.html
+```
+
+The project keeps its core implementation simple, with the main HTML file containing the page structure, styles, and JavaScript functionality.
+
+---
+
+## 🚀 Getting Started
+
+Want to experience the project locally or explore the code? Follow these steps.
+
+### Prerequisites
+
+- Git installed on your system
+- A modern web browser
+- Node.js and npm (for running a local server)
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/pratyush61/Naruto-Rasengan.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
 cd Naruto-Rasengan
 ```
 
-Open `index.html` in your browser. For the best result, use a local server so the video and images load correctly:
+### 3. Start a local development server
 
 ```bash
 npx serve .
 ```
 
-Then open the local URL shown in your terminal.
+### 4. Open the website
+
+Visit the local URL displayed in your terminal.
+
+**Tip:** Using a local server is recommended to ensure video and image assets load correctly.
 
 ---
 
-## Project Structure
+## 🌐 Deployment
 
-```
-Naruto-Rasengan/
-├── video/         # Video assets
-├── 1.png          # Image asset
-├── 2.png          # Image asset
-├── 3.png          # Image asset
-└── index.html     # The full page: markup, styles and scripts
-```
+This project is deployed using **Vercel**.
 
----
+Every push to the `main` branch can automatically trigger a new deployment when GitHub integration is configured.
 
-## Deployment
+**Live Website:** https://naruto-rasengan-liart.vercel.app
 
-The site is deployed on [Vercel](https://vercel.com). Every push to the `main` branch triggers a new deployment automatically.
+**Hosting Platform:** [Vercel](https://vercel.com)
 
 ---
 
-## Disclaimer
+## 🎯 Project Goals
 
-This is a fan-made project built for learning and portfolio purposes. Naruto and all related characters, names and artwork are the property of Masashi Kishimoto, Shueisha and their respective owners. This project is not affiliated with or endorsed by them.
+This project was created to explore and demonstrate:
+
+- Creative frontend development.
+- Scroll-based animation techniques.
+- Interactive storytelling through web design.
+- Multimedia integration using HTML, CSS, and JavaScript.
+- Anime-inspired UI/UX design.
+- Building visually engaging experiences without complex frameworks.
 
 ---
 
-## Author
+## 🔮 Future Improvements
 
-Built by [pratyush61](https://github.com/pratyush61).
+Some ideas for taking this project further:
 
-If you like this project, consider giving it a star.
+- Add more cinematic transition effects.
+- Improve mobile-specific scroll interactions.
+- Introduce additional chakra particle effects.
+- Add immersive background audio with user controls.
+- Optimize video assets for faster loading.
+- Expand the experience with more Naruto transformation stages.
+
+---
+
+## ⚠️ Disclaimer
+
+This is an unofficial, fan-made project created strictly for educational, experimental, and portfolio purposes.
+
+Naruto, its characters, artwork, and related intellectual property belong to their respective owners, including Masashi Kishimoto and Shueisha.
+
+This project is not affiliated with, sponsored by, or endorsed by the original creators or copyright holders.
+
+---
+
+## 👨‍💻 Author
+
+**Pratyush**
+
+- GitHub: [@pratyush61](https://github.com/pratyush61)
+- Project Repository: [Naruto-Rasengan](https://github.com/pratyush61/Naruto-Rasengan)
+- Live Demo: [Naruto: Sage Mode Awakening](https://naruto-rasengan-liart.vercel.app)
+
+---
+
+<div align="center">
+
+### 🍃 Believe It!
+
+**Made with ❤️, creativity, and a little bit of chakra.**
+
+⭐ If you enjoyed this project, consider giving the repository a star!
+
+</div>
