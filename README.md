@@ -1,4 +1,4 @@
-# Naruto: Sage Mode Awakening
+# Naruto: Sage Mode Awakening scrolling site 
 
 An immersive, scroll-driven single-page experience themed around Naruto Uzumaki's transformation into Sage Mode. As you scroll, the page moves through three stages: the base form, the hand seal, and the full Sage Mode awakening.
 
